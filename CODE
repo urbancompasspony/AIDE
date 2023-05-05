@@ -1,0 +1,24 @@
+According to AIDE man pages, the AIDE’s exit status is normally 0 if no errors occurred.
+Except when the –check, –compare or –update command was requested, in which case the exit status is defined as:
+
+1 * (new files detected?)     +
+
+2 * (removed files detected?) +
+
+4 * (changed files detected?)
+
+Or the sum of all together like 1+2 = error 3
+   
+Additionally, the following exit codes are defined for generic error conditions:
+
+14 Error writing error
+
+15 Invalid argument error
+
+16 Unimplemented function error
+
+17 Invalid configureline error
+
+18 IO error
+
+19 Version mismatch error
