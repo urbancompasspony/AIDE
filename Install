@@ -1,0 +1,5 @@
+# Ubuntu
+
+sudo apt install aide --no-install-recommends
+sudo apt install aide-common
+
