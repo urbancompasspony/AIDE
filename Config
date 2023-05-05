@@ -1,6 +1,7 @@
 # Create database:
 
 $ sudo aideinit
+(this may take some time...)
 
 The general configuration file for AIDE is located under /etc/default/aide.
 The rules and configurations resides under /etc/aide/ and the AIDE database is located under /var/lib/aide/.
