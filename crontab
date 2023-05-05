@@ -1,0 +1,3 @@
+# To run every 10 minutes refreshing .db:
+
+*/10 * * * * aide -c /home/koromicha/aide/aide.conf -u && cp /home/koromicha/aide/aide.db{.new,}
