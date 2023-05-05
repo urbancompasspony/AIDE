@@ -1,0 +1,10 @@
+# Only /etc folder
+
+$ sudo aide -c /etc/aide/aide.conf --limit /etc --check
+
+Or add these lines ate the end of /etc/aide/aide.conf file to ignore them:
+
+!/home/
+!/var/lib/
+!/proc
+
